@@ -51,7 +51,6 @@ export default {
   computed: {
     emojis () {
       return this.pannels.map(item => {
-        console.log('ssh测试')
         return Object.keys(this.emojiData[item])
       })
     }
